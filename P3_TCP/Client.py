@@ -19,7 +19,6 @@ BUFFER = 1024
 
 # Try block for connection
 try:
-
     clientSocket = socket(AF_INET, SOCK_STREAM)
     clientSocket.connect((serverName,serverPort))
 
